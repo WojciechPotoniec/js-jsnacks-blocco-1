@@ -8,3 +8,15 @@ Suggerimenti:
 Probabilmente conviene controllare che il numero di elementi della coda non sia più grande 
 del numero di elementi totali dell'array.
 */
+
+
+//devo creare una lista di elementi chiedendo all'user il numero degli elementi.
+
+
+number = [];
+usernumber = parseInt(prompt('Inserisci un numero'));
+
+for(let i = 0; i <= usernumber; i++){
+    number.push(getRndInteger(1, 100));
+    console.log(number[i]);
+}
