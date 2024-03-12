@@ -22,8 +22,8 @@ for(let i = 0; i <= usernumber; i++){
 }
 console.log(number);
 console.log (number.slice(-5)); 
+// number.slice(-5); ci servirà per prendere gli'ultimi 5 elementi partendo dall'ultimo
 
-/*if(number >= 5){
-    let numbers = number.slice(-5);     // number.slice(-5); ci servirà per prendere gli'ultimi 5 elementi
-        console.log(numbers);
-    }else console.log('Inserisci un valore maggiore di 5');*/
+/*if(number < usernumber){
+    console.log(prompt(Quanti numeri vuoi visualizzare?));
+}*/
