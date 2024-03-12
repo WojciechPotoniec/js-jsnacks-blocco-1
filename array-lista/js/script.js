@@ -27,17 +27,16 @@ let fridge = [
 ];
 
 fridge.push("pesca");
-let fruit = "cocomero"
-let flag = false
+let fruit = "cocomero";
+let flag = false;
 // console.log(fridge);
 
 for (let i = 0; i < fridge.length; i++) {
   if (fruit === fridge[i]) {
-    let flag = true
+    flag = true;
   }
 }
 
 if (flag) {
-  console.log("Si ce l'ho");
+  console.log("Trovato! Devo solo preparare il cocktail.");
 } else console.log("Oh no, devo uscire a comprare il cocomero!");
-// else console.log('Devi comprare il cocomero')
